@@ -1,6 +1,6 @@
 # SFD
 
-Code for computing the spatial first differences (SFD) estimator. SFD is a research design that exploits the spatial structure of the data to address unobservable heterogeneity in cross-sectional data. Please see Druckenmiller & Hsiang, 2018. 
+Code for computing the spatial first differences (SFD) estimator. SFD is a research design that exploits the spatial structure of the data to address unobservable heterogeneity in cross section. Please see Druckenmiller & Hsiang, 2018. 
 
 # Installation 
 Currently, this package exists in a development version on GitHub. To use the package, you need to install it directly from GitHub using the install_github function from devtools.
