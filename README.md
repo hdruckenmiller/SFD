@@ -39,4 +39,4 @@ sfdmodel <- SFD_lm(spatial_df = us.map,
     plot = TRUE)
 ```
 The `plot=TRUE` option produces a plot the adjacent observations used to calculate SFD in your sample. 
-We recommend checking this plot to make sure the algorithm identified reasonable neighbors. 
+We recommend checking this plot to make sure the algorithm identifies reasonable neighbors. 
