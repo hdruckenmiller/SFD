@@ -27,7 +27,7 @@ The number sampling channels should be chosen such that the height of your sampl
 is approximately equal to the height of your observational units. 
 The `n_channels` function inputs your SpatialPolygonsDataFrame and provides a recommendation for the number of sampling channels. 
 ```
-n_channels <- SFD_vars(spatial_df = us.map)
+n_ch <- n_channels(spatial_df = us.map)
 ```
 Alternatively, the user can directly compute the SFD estimator using the function `SFD_lm`. This function performs a linear regression on the data after taking SFD. 
 ```
